@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframe and Animations</title>
+    <style>  
+        .container{
+            background-color: greenyellow;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            width: 300px;
+            height: 150px;
+            position: relative;
+            /* animation-name: an1;
+            animation-duration: 1s;
+            animation-iteration-count: 2; */
+            animation: an2 1s;
+            transition: all 3s ease-in-out .7s;
+        }
+       
+        @keyframes an1{
+            from{
+                width:200px;
+            }
+            to{
+                width: 1400px;
+            }
+        }   
+        @keyframes an2{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 150px;
+                left: 0px;
+                background-color: brown;
+                border-radius: 678px;
+                box-shadow: 5px 5px 5px rgb(221, 13, 13);
+                transform: skew(40deg);
+            } 
+            50%{
+                transform: skew(-40deg);
+                transform: scale(3);
+                transform: rotate(90deg);
+            }
+            75%{
+                background-color: yellowgreen;
+                /* transform: perspective(900px); */
+            }  
+        }  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box">
+            This is a box
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.navbar{
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+}
+.navbar ul li a{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0px;
+    padding: 0px;
+}
+.info{
+    font-size: 0.8rem;
+   margin: 0px;
+   padding: 0px;
+}
+#box1:hover{
+    margin: 0px;
+    padding: 0px;
+}
+#box2:hover{
+    margin: 0px;
+    padding: 0px;
+}
+#box3:hover{
+    margin: 0px;
+    padding: 0px;
+}

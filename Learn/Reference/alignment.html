@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: papyrus;
+        }
+        .container{
+            border: 3px solid purple;
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(238, 210, 210);
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 50%;
+        }
+        #stationary{
+            clear: both;
+            width: 100%;
+        }
+        p, h1{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magnam cum id unde ipsum. Placeat dignissimos esse doloribus, iste cum vitae ut repellendus minima, ea aliquid possimus! Iste similique perspiciatis quam. Aspernatur, odio ipsum?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magnam cum id unde ipsum. Placeat dignissimos esse doloribus, iste cum vitae ut repellendus minima, ea aliquid possimus! Iste similique perspiciatis quam. Aspernatur, odio ipsum?</p>
+        </div>
+        <div id="stationery" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magnam cum id unde ipsum. Placeat dignissimos esse doloribus, iste cum vitae ut repellendus minima, ea aliquid possimus! Iste similique perspiciatis quam. Aspernatur, odio ipsum?</p>
+        </div>
+    </div>
+</body>
+</html>

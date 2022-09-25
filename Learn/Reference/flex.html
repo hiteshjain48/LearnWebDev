@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .iten{
+            border: 2px solid red;
+            margin: 4px;
+            padding: 3px;
+            width: 55px;
+            height: 55px;
+        }
+        #item-1{
+            order: 2;
+            flex-grow: 2;
+            flex-shrink: 2;
+            flex-basis: 160px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Flexbox Tutorial.</h1>
+    <div class="container">
+        <div class="iten" id="item-1">First box</div>
+        <div class="iten" id="item-2">Secont box</div>
+        <div class="iten" id="item-3">Third box</div>
+        <div class="iten" id="item-4">Fourth box</div>
+        <div class="iten" id="item-5">Fifth box</div>
+        <div class="iten" id="item-6">Sixth box</div>
+    </div>
+</body>
+</html>

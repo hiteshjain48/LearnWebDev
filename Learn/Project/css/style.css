@@ -1,0 +1,124 @@
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin: 0px;
+    padding: 0px;
+    /* background: url('../img/marvel3.jpg') no-repeat center center/cover; */
+    background-image: url('../img/marvel3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-attachment: fixed;
+    /* background-size: auto; */
+    /* background-clip: inherit; */
+}
+/* header::before{
+    content: "";
+    background: url('../img/marvel3.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+} */
+
+/* Navigation */
+.navbar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: right;
+    margin-left: 680px;
+}
+.navbar ul li {
+    list-style: none;
+    padding: 15px;
+    transition: all .5s ease-out ;
+}
+.navbar ul li:hover{
+    border-radius: 13px;
+    background-color: white;
+    padding: 13px;
+    transform: skew(-20deg);
+    margin-bottom: 0px;
+    /* color: black; */
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+    font-size: 1.5rem;
+}
+.navbar ul li a:hover{
+   
+    color:black;
+}
+#title{
+    margin-left: 16px;
+    color: white;
+}
+/* Content  */
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: auto;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+#box1{
+    transition: all .5s ease-out;
+}
+
+#box1:hover{
+    background: url('../img/marvel2.jpg') no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    padding: 45px;
+    color: white;
+}
+#box2{
+    transition: all .5s ease-out;
+}
+#box2:hover{
+    background: url('../img/marvel.jpg') no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.3; */
+    margin: 50px;
+    padding: 45px;
+    color: white;
+}
+
+#box3{
+    transition: all .5s ease-out;
+}
+
+#box3:hover{
+    background: url('../img/marvel1.jpg') no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.3; */
+    margin: 50px;
+    padding: 45px;
+    color: white;
+}
+
+.info{
+    font-size: 1.3rem;
+    border-radius: 23px;
+    text-align: center;
+    padding: 45px;
+    margin: 50px;
+    color: white;
+}

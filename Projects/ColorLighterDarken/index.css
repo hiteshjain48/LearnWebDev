@@ -24,6 +24,7 @@ html, body {
 }
 .slider{
     margin-top: 1em;
+    position: relative;
 }
 .box{
     /* border: .1em solid black; */

@@ -36,7 +36,7 @@ html, body {
 p{
     margin-bottom:.6em;
 }
-#hexInput{
+.input{
     /* border: .1em solid black; */
     border: none;
     height: 2em;
@@ -45,4 +45,47 @@ p{
 }
 label{
     margin-right: 1.1em;
+}
+
+input{
+    margin: 0.6em;
+}
+#hexInput{
+    margin-left: 5.2em;
+    padding: .1em;
+}
+
+.toggle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.toggle-btn{
+    border: 2px solid black;
+    width: 3em;
+    height: 1em;
+    border-radius: .8em;
+    padding: .1em;
+    margin: 1.1em;
+    /* background-color: ; */
+}
+
+.toggle-text{
+    margin-bottom: 1.2em;
+}
+.inner-circle{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: black;
+    transition: all 250ms;
+}
+
+.toggle-btn.toggled > .inner-circle{
+    transform: translateX(2em);
+}
+
+.unselected{
+    opacity: 0.25;
 }

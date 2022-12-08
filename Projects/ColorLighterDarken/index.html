@@ -10,9 +10,22 @@
         <div class="container">
             <h1 class="title">Color Lighten/Darken</h1>
         <label for="hex">Color (Hex)</label>
-        <input type="text" name="hex" id="hexInput" 
+        <input type="text" name="hex" id="hexInput" class="input"
         placeholder="#000000"/><br>
-        
+        <!-- <label for="hex">Altered Color (Hex)</label>
+        <input type="text" name="hex" id="hexOutput" class="input"
+        placeholder="#000000"/><br> -->
+        <div class="toggle">
+            <p class="toggle-text" id="lightenText">
+                Lighten
+            </p>
+            <div class="toggle-btn" id="toggleBtn">
+                <div class="inner-circle"></div>
+            </div>
+            <p class="toggle-text" id="darkenText">
+                Darken
+            </p>
+        </div>
         <label for="slider" class="slider" id="sliderText">0%</label>
         <input type="range" min="0" max="100" value="0"
             class="slider" id="slider" name="slider"</input>
